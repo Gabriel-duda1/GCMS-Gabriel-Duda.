@@ -23,5 +23,11 @@ public class HomeController {
 		String expected = "Endpoint de teste!";
 		assertEquals(expected, controller.teste());
 	}
+	@RequestMapping("/original")
+	@ResponseBody
+	public String original() {
+    return "mudança no projeto normal";
+	}
+
 
 }
