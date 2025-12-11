@@ -10,7 +10,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public @ResponseBody String greeting() {
 
-		return "Pratica 3, Biel!";
+		return "Pratica 3, Biel! - mudança parte3";
 	}
 
 	@RequestMapping("/Biel")
