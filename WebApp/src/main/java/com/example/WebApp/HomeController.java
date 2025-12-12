@@ -29,10 +29,17 @@ public class HomeController {
     return "mudança no projeto normal";
 	}
 	
+<<<<<<< HEAD
 	@GetMapping("/main")
 	public String main() {
 	    return "Endpoint na main!";
 	}
 
+=======
+	@GetMapping("/hotfix")
+	public String hotfix() {
+	    return "Endpoint do Hotfix!";
+	}
+>>>>>>> hotfix
 
 }
