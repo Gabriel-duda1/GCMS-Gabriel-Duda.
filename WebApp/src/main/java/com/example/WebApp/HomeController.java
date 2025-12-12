@@ -28,6 +28,11 @@ public class HomeController {
 	public String original() {
     return "mudança no projeto normal";
 	}
+	
+	@GetMapping("/main")
+	public String main() {
+	    return "Endpoint na main!";
+	}
 
 
 }
